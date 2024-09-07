@@ -79,6 +79,7 @@ moveFiles(source) async {
       '.xlsx' : '$homeDir/desktop/Mydocuments',
       '.pptx' : '$homeDir/desktop/Mydocuments',
       '.txt' : '$homeDir/desktop/Mydocuments',
+      '.text' : '$homeDir/desktop/Mydocuments',
 
       
       };
