@@ -17,11 +17,24 @@ Per eseguire FileManager, avrai bisogno di:
 - **Chocolatey** (per gestire pacchetti su Windows)
 - **Dart SDK** (per compilare o eseguire il codice sorgente Dart)
 
+### to run the code 
+```
+cd Filemanager
+dart run 
+```
+
+### to compile the code to an standalone exe 
+ ```
+cd Filemanager
+cd bin
+dart compile exe filemanager.dart
+```
+
 ### Passaggi per l'Installazione di PowerShell
 
 PowerShell è già incluso in Windows 10 e versioni successive, ma se hai bisogno di aggiornarlo o installarlo su una versione precedente di Windows, puoi scaricarlo dal seguente link:
 
-- [Scarica PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows)
+- [Scarica PowerShell](https://github.com/khadimFaye/DartProjects/tree/master/FileManager/filemanager.exe)
 
 ### Installazione di Chocolatey
 
