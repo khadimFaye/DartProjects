@@ -73,13 +73,6 @@ You can install Dart via Chocolatey or manually:
 
 2. Follow the installation instructions specific to your operating system.
 
-### Running the Project
-
-1. After downloading the executable or cloning the repository, you can run the application from the terminal:
-   
-    ```powershell
-    ./FileManager.exe
-    ```
 
 2. Alternatively, if you prefer to run the project directly from the Dart source code, navigate to the project directory and use the command:
 
@@ -93,6 +86,13 @@ You can install Dart via Chocolatey or manually:
 cd Filemanager/bin
 dart compile exe filemanager.dart
 ```
+### Running the Project
+
+1. After compiled the executable from the terminal or just double click it:
+   
+    ```powershell
+    ./FileManager.exe
+    ```
 
 ## Contributions
 
