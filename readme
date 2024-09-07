@@ -1,103 +1,100 @@
 # FileManager
 
-FileManager è un'applicazione scritta in Dart che consente di gestire file e directory direttamente dal terminale. Questa applicazione offre una gamma di comandi per creare, spostare, copiare, e rimuovere file e directory, fornendo un'alternativa semplice e rapida ai gestori di file tradizionali.
+FileManager is an application written in Dart that allows you to manage files and directories directly from the terminal. This application provides a range of commands to create, move, copy, and delete files and directories, offering a simple and fast alternative to traditional file managers.
 
-## Scarica l'Eseguibile
+### 👤 Author
+- [Khadim Faye](https://github.com/khadimFaye)
 
-Puoi scaricare l'eseguibile dal seguente link:
+## 📥 Download the Executable
 
-- [Scarica l'eseguibile FileManager](https://tuo-link.com/percorso-del-file-exe)
+You can download the executable from the following link:
 
-## Requisiti
+- [Download the FileManager Executable](https://your-link.com/path-to-the-exe-file)
 
-Per eseguire FileManager, avrai bisogno di:
+## 🔧 Requirements
 
-- **Windows 7 o successivo**
+To run FileManager, you will need:
+
+- **Windows 7 or later**
 - **PowerShell**
-- **Chocolatey** (per gestire pacchetti su Windows)
-- **Dart SDK** (per compilare o eseguire il codice sorgente Dart)
+- **Chocolatey** (for managing packages on Windows)
+- **Dart SDK** (to compile or run the Dart source code)
 
-### to run the code 
-```
-cd Filemanager
+### 🛠️ How to Run the Code
+```bash
+cd FileManager
 dart run 
+
 ```
 
-### to compile the code to an standalone exe 
- ```
-cd Filemanager
-cd bin
-dart compile exe filemanager.dart
-```
-
-### Passaggi per l'Installazione di PowerShell
+### Steps to Install PowerShell
 
 PowerShell è già incluso in Windows 10 e versioni successive, ma se hai bisogno di aggiornarlo o installarlo su una versione precedente di Windows, puoi scaricarlo dal seguente link:
 
-- [Scarica PowerShell](https://github.com/khadimFaye/DartProjects/tree/master/FileManager/filemanager.exe)
+- [Download PowerShell](https://github.com/khadimFaye/DartProjects/tree/master/FileManager/filemanager.exe)
 
-### Installazione di Chocolatey
+### 🍫Installing Chocolatey
+Chocolatey is a package manager for Windows that simplifies the installation of software like Dart.
 
-Chocolatey è un gestore di pacchetti per Windows che semplifica l'installazione di software come Dart.
+1. Open PowerShell with administrator privileges.
 
-1. Apri **PowerShell** con privilegi di amministratore.
-2. Esegui il seguente comando per installare Chocolatey:
+2. Run the following command to install Chocolatey:
 
     ```powershell
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     ```
 
-3. Verifica l'installazione di Chocolatey con il comando:
+3. Verify Chocolatey's installation with the command:
 
     ```powershell
     choco -v
     ```
 
-### Installazione di Dart
+### Installing Dart
 
-Puoi installare Dart tramite Chocolatey o manualmente:
+You can install Dart via Chocolatey or manually:
 
-#### Metodo 1: Utilizzare Chocolatey
+#### Method 1: Use Chocolatey
 
-1. Dopo aver installato Chocolatey, apri **PowerShell** con privilegi di amministratore.
-2. Esegui il seguente comando per installare Dart SDK:
+1. After installing Chocolatey, open PowerShell with administrator privileges.
+2. Run the following command to install Dart SDK:
 
     ```powershell
     choco install dart-sdk
     ```
 
-3. Verifica l'installazione di Dart con:
+3. Verify the installation of Dart with:
 
     ```powershell
     dart --version
     ```
 
-#### Metodo 2: Installazione Manuale
+#### Method 2: Manual Installation
 
 1. Vai al sito ufficiale di Dart e scarica l'SDK dal seguente link:
 
-    - [Scarica Dart SDK](https://dart.dev/get-dart)
+    - [Download Dart SDK](https://dart.dev/get-dart)
 
-2. Segui le istruzioni di installazione specifiche per il tuo sistema operativo.
+2. Follow the installation instructions specific to your operating system.
 
-### Esecuzione del Progetto
+### Running the Project
 
-1. Dopo aver scaricato l'eseguibile o clonato il repository, puoi eseguire l'applicazione dal terminale:
+1. After downloading the executable or cloning the repository, you can run the application from the terminal:
    
     ```powershell
     ./FileManager.exe
     ```
 
-2. Oppure, se preferisci eseguire il progetto direttamente dal codice sorgente Dart, naviga nella directory del progetto e usa il comando:
+2. Alternatively, if you prefer to run the project directly from the Dart source code, navigate to the project directory and use the command:
 
     ```bash
     dart run
     ```
 
-## Contributi
+## Contributions
 
-Contributi, bug report e suggerimenti sono benvenuti! Puoi aprire una issue o creare una pull request per discutere dei cambiamenti.
+Contributions, bug reports, and suggestions are welcome! You can open an issue or create a pull request to discuss changes.
 
-## Licenza
+## License
 
-Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICENSE) per maggiori dettagli.
+This project is distributed under the MIT license. See the file [LICENSE](LICENSE) for more details.
